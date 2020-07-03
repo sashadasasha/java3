@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
 import java.util.List;
 
 public class History {
@@ -27,6 +28,8 @@ public class History {
         if (Files.exists(Paths.get("F:\\GeekBrains\\java3\\javaChat\\data\\" + userID + ".txt"))) {
             return Files.readAllLines(Paths.get("F:\\GeekBrains\\java3\\javaChat\\data\\" + userID + ".txt"));
         }
+
+        return new ArrayList<String>(){{add("");}};
     }
 
 }

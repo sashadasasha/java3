@@ -29,7 +29,7 @@ public class NetworkService {
     private MessageHandler messageHandler;
     private static AuthEvent successfulAuthEvent;
     private String nickname;
-    int userID;
+    private Integer userID;
 
     public NetworkService(String host, int port) {
         this.host = host;
@@ -54,7 +54,7 @@ public class NetworkService {
                             AuthCommand commandData = (AuthCommand) command.getData();
                             nickname = commandData.getUsername();
                             userID = commandData.getId();
-                            successfulAuthEvent.authIsSuccessful(nickname);
+                            successfulAuthEvent.authIsSuccessful(nickname, userID);
                             break;
                         }
                         case MESSAGE: {
@@ -65,8 +65,6 @@ public class NetworkService {
                                 if (username != null) {
                                     message = username + ": " + message;
                                 }
-                                History history = new History(nickname, userID);
-                                history.createHistoryFile(message);
                                 messageHandler.handle(message);
                             }
                             break;

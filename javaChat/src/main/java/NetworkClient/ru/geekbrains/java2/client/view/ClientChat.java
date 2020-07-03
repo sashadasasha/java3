@@ -10,6 +10,7 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.IOException;
 import java.util.List;
 
 public class ClientChat extends JFrame {
@@ -63,8 +64,31 @@ public class ClientChat extends JFrame {
     public void appendMessage(String message) {
         SwingUtilities.invokeLater(() -> {
             chatText.append(message);
+            History history = new History(controller.getUsername(), controller.getUserID());
+            try {
+                history.createHistoryFile(message);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             chatText.append(System.lineSeparator());
         });
+    }
+
+    public void getChatHistory(History history) throws IOException {
+        List<String> clientHistory = history.readHistoryFile();
+        if (clientHistory.size() > 0) {
+            if (clientHistory.size() <= 5) {
+                for (String elem : clientHistory) {
+                    chatText.append(elem);
+                    chatText.append(System.lineSeparator());
+                }
+            } else {
+                for (int i = clientHistory.size() - 5; i < clientHistory.size(); i++) {
+                    chatText.append(clientHistory.get(i));
+                    chatText.append(System.lineSeparator());
+                }
+            }
+        }
     }
 
 

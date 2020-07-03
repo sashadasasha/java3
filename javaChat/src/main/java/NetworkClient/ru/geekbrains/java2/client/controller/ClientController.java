@@ -1,5 +1,6 @@
 package NetworkClient.ru.geekbrains.java2.client.controller;
 
+import NetworkClient.ru.geekbrains.java2.client.history.History;
 import NetworkClient.ru.geekbrains.java2.client.model.NetworkService;
 import NetworkClient.ru.geekbrains.java2.client.view.AuthDialog;
 import NetworkClient.ru.geekbrains.java2.client.view.ClientChat;
@@ -29,7 +30,7 @@ public class ClientController {
     }
 
     private void runAuthProcess() {
-            networkService.setSuccessfulAuthEvent(nickname -> {
+            networkService.setSuccessfulAuthEvent((nickname, userID) -> {
                 ClientController.this.setUserName(nickname);
                 ClientController.this.setUserID(userID);
                 clientChat.setTitle(nickname);
@@ -38,10 +39,12 @@ public class ClientController {
             authDialog.setVisible(true);
     }
 
-    private void openChat() {
+    private void openChat() throws IOException {
         authDialog.dispose();
         networkService.setMessageHandler(clientChat::appendMessage);
         clientChat.setVisible(true);
+        History history = new History(nickname, userID);
+        clientChat.getChatHistory(history);
     }
 
     private void setUserName(String nickname) {
@@ -79,6 +82,10 @@ public class ClientController {
 
     public String getUsername() {
         return nickname;
+    }
+
+    public int getUserID() {
+        return userID;
     }
 
     public void sendPrivateMessage(String username, String message) {
