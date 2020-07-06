@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="forms_rt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/forms_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/src.zip!/" />
+    </SOURCES>
+  </library>
+</component>
