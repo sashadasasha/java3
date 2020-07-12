@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="008f9f95-aa1e-4bdf-ab6c-0a7be5db7a35" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Sasha\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.5428.22\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1diaUWqk9bqnVIPB4yvBmCwr13A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SkillBox/java_basics/09_FilesAndNetwork/M9_4/MetroParser" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GeekBrains\javaChat\src\main\java" />
+      <recent name="F:\GeekBrains\javaChat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NetworkClient4">
+    <configuration name="DatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkServer.ru.geekbrains.java2.server.db.DatabaseConnection" />
+      <module name="javaChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetworkServer.ru.geekbrains.java2.server.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkClient3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="NetworkClient.ru.geekbrains.java2.client.NetworkClient" />
+      <module name="javaChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetworkClient.ru.geekbrains.java2.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkClient4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkClient.ru.geekbrains.java2.client.NetworkClient" />
+      <module name="javaChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetworkServer.src.ru.geekbrains.java2.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkServer.ru.geekbrains.java2.server.ServerApp" />
+      <module name="javaChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetworkServer.ru.geekbrains.java2.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NetworkClient3" />
+      <item itemvalue="Application.DatabaseConnection" />
+      <item itemvalue="Application.NetworkClient4" />
+      <item itemvalue="Application.ServerApp (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NetworkClient4" />
+        <item itemvalue="Application.ServerApp (1)" />
+        <item itemvalue="Application.DatabaseConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="008f9f95-aa1e-4bdf-ab6c-0a7be5db7a35" name="Default Changelist" comment="" />
+      <created>1592910385330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592910385330</updated>
+      <workItem from="1592910386565" duration="6192000" />
+      <workItem from="1592994743297" duration="10000" />
+      <workItem from="1592995125466" duration="153000" />
+      <workItem from="1592995294596" duration="30000" />
+      <workItem from="1593078047776" duration="2460000" />
+      <workItem from="1593082250777" duration="43000" />
+      <workItem from="1593193732578" duration="134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="471" y="114" key="#Project_Structure" timestamp="1592910520791">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="471" y="114" key="#Project_Structure/62.0.1858.1080@62.0.1858.1080" timestamp="1592910520791" />
+    <state x="445" y="195" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593080509460">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="445" y="195" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1593080509460" />
+    <state x="720" y="342" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593080505238">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="720" y="342" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1593080505238" />
+    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1592995322858">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592995322858" />
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1593080466818">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593080466818" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1593080466818">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593080466818" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1593080466818">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593080466818" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1593080466818">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593080466818" />
+    <state x="492" y="185" key="SettingsEditor" timestamp="1592910712801">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="492" y="185" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1592910712801" />
+    <state x="698" y="139" width="585" height="801" key="find.popup" timestamp="1593078636513">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="698" y="139" width="585" height="801" key="find.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1593078636513" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1593078519275">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1593078519275" />
+  </component>
+</project>
